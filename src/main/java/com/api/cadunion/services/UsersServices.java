@@ -7,8 +7,8 @@ import java.util.UUID;
 import javax.transaction.Transactional;
 
 import org.springframework.data.domain.Page;
-import org.springframework.stereotype.Service;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
 import com.api.cadunion.models.UserModel;
 import com.api.cadunion.repositories.UsersRepository;

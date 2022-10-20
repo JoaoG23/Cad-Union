@@ -63,11 +63,8 @@ public class UsersController {
     @GetMapping
     public ResponseEntity<Page<UserModel>> getAllUsers(
             @PageableDefault(page = 0, size = 10, sort = "id", direction = Sort.Direction.ASC) Pageable pageable) {
-            return ResponseEntity.status(HttpStatus.OK).body(usersServices.findAll(pageable));
+        return ResponseEntity.status(HttpStatus.OK).body(usersServices.findAll(pageable));
     }
-
-
-
 
     @GetMapping("/{id}")
     public ResponseEntity<Object> getOneUser(@PathVariable(value = "id") UUID id) {
