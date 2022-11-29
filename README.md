@@ -26,6 +26,7 @@ meio genenico, mas estava sem criatividade no momento para escolher o tema do CR
 |             Alterações             |   Data   | Versão |
 | :--------------------------------: | :------: | :----: |
 | Emissão Inicial | 18/10/2022 | 1.0.1  |
+| Implementando Spring Security | 24/10/2022 | 1.0.1  |
 
 
 
@@ -48,6 +49,9 @@ meio genenico, mas estava sem criatividade no momento para escolher o tema do CR
 <br>
 
 Novamente, como sempre como nos projetos anteriores utilizei arquitura **MVC**
+
+Aprendizados adiquiridos.
+1. Ao colocar pom.xml a dependencia do spring Security e inicia a app ele gera senha por padrão para nos
 
 <h2 id='instalar'><b>2- Como instalar 🧑‍🔧</b></h2>
 
