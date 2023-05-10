@@ -2,13 +2,11 @@ package com.api.cadunion.controllers;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
 import javax.validation.Valid;
 
-import org.apache.catalina.connector.Response;
 import org.springframework.beans.BeanUtils;
 
 import org.springframework.data.web.PageableDefault;
